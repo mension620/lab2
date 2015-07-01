@@ -1,0 +1,10 @@
+class BMI 裡面包含這些函數：
+
+public:
+void setHeight(float x);    將ifstream函數所導入的身高公分轉換成公尺，並轉存到height
+void setMass(float y);      將ifstream函數所導入的體重公斤轉存到mass
+float getBMIValue();        計算並取得BMI值，同時將之四捨五入到小數點第二位
+string getBMICategory();    比較BMI值，return到對應的string
+private:
+float height;               private儲存身高值
+float mass;                 private純存體重值
